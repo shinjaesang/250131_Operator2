@@ -40,7 +40,7 @@ public class OperatorSample {
 		 String result = (num >= 1 && num++ <= 100)? "1~100 사이의 값이다" : "1~100 사이의 값이 아니다";
 			 
 		System.out.println(result);
-		System.out.println("num: " + num); //1증가된 값이면 뒤가 실해됨, 
+		System.out.println("num: " + num); //1증가된 값이면 뒤가 실행됨, 
 	 }
 	 
 	 /**
